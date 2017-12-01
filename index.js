@@ -9,9 +9,9 @@ function coinToss() {
 }
 
 function tailsNeverFails() {
-  let counter = 0;
+  let i = 0;
   while (coinToss()) {
-    counter++
+    i++
   }
-  return `You got ${counter} tails in a row!`
+  return `You got ${i} tails in a row!`
 }
