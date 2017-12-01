@@ -8,6 +8,6 @@ function tailsNeverFails() {
   return Math.random() >= 0.5;
 
   while (tailsNeverFails()) {
-    console.log(`You got ${tailsNeverFails[i]} tails in a row!`)
+    return `You got ${tailsNeverFails[i]} tails in a row!`
   }
 }
