@@ -1,1 +1,4 @@
-// Code your solutions in this file
+function printBadges() {
+  for (let i = 0; i < )
+  console.log(xxxx[i])
+}
