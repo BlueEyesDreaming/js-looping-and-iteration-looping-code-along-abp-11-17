@@ -4,10 +4,15 @@ function printBadges(arrayNames) {
   return arrayNames
 }
 
-function tailsNeverFails() {
+function coinToss() {
   return Math.random() >= 0.5;
-
-  while (tailsNeverFails()) {
-    return `You got ${tailsNeverFails[i]} tails in a row!`
-  }
 }
+
+function tailsNeverFails() {
+  let i = 0;
+  while (tailsNeverFails()) {}
+    i++
+  }
+    return `You got ${tailsNeverFails[i]} tails in a row!`
+}
+
