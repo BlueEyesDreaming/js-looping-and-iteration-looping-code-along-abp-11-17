@@ -1,4 +1,6 @@
-function printBadges() {
-  for (let i = 0; i < )
-  console.log(xxxx[i])
+function printBadges(element) {
+  for (let i = 0; i < element.length; i++)
+  console.log(element[i])
 }
+
+//['Lisa', 'Kaitlin', 'Jan']
